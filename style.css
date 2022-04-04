@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Baloo+Chettan+2&family=Oswald:wght@300&family=Outfit:wght@200&family=Raleway:wght@100;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo > img{
+    height: 80px;
+}
+.real{
+    position: relative;
+}
+.container-fluid > img{
+    min-width: 80%;
+    height: 403px;
+    margin-bottom: 0;
+    margin-top: 3em;
+    margin-left: 7em;
+    object-position: 50% 13.29%;
+    overflow: hidden;
+    color: #111111;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+.container > .row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    
+}
+ .box-1{
+    margin-top: -140px;
+    height: 30em;
+    margin-left: 4em;
+    background-color: #ddc384;
+}
+.box-1 h4{
+    line-height: 1.2;
+    display: block;
+    color: #ffffff !important;
+    font-family: Raleway, sans-serif !important;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 3em;
+}
+.box-1 p{
+    line-height: 1.2;
+    display: block;
+    color: #ffffff !important;
+    font-family: Raleway, sans-serif !important;
+
+}
+
+
+
+ .box-2 li{
+    list-style: none;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: large;
+}
+ .box-2 ol{
+  padding: 0;
+}
+ .box-3 > button {
+    background-color: #ddc384;
+    font-size: 0.875rem;
+    color: #111111;
+    border: none;
+ }
+
+ .text{
+     text-align: center;
+     margin-top: 7em;
+ }
+ #text-1 h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    max-width: 752px;
+    margin: 60px auto 0; 
+ }
+ #text-1 p{
+    max-width: 718px;
+    margin: 20px auto 0;
+ }
+
+ .third{
+     /* border: 2px solid black; */
+     height: 30em;
+     align-items: center;
+     
+ }
+ .third h2{
+    font-weight: 700;
+    font-size: 1.875rem; 
+    
+ }
+ .third img{
+    max-width: 70%;
+    margin-left: 4em;
+    
+ }
+ .left > h6{
+     max-width: 70%;
+     text-align: start;
+     margin: auto;
+ }
+ .left > h2{
+     max-width: 70%;
+     text-align: start;
+     margin: auto;
+ }
+ .hove a{
+     display: inline-block;
+     position: relative;
+     color: rgb(175, 23, 23) !important;
+     
+ }
+ .hove a::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-image: linear-gradient(to right, #a3c4f3 , #b9fbc0, #f72585);
+    bottom: 0;
+    left: 0;
+    width: 0;
+    transition: 0.5s;
+ }
+ .hove a:hover::after{
+    width: 100%;
+ }
+
+
+ .parent{
+     padding: 0 7em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-column-gap: 5rem;
+    grid-row-gap: 0;
+    width: 100%;
+    
+    
+    }
+    .div > h5{
+        font-weight: 700;
+            margin: 22px auto 0;
+    }
+  
+    
+  
+
+    .parent > div{
+        
+        /* border: 2px solid red; */
+        text-align: center;
+        padding: 0 5em;
+
+    }
+    .div2{
+        background-color: #fcf9f1;
+    }
+    .div4{
+        background-color: #fcf9f1;
+    }
+    .div6{
+        background-color: #fcf9f1;
+    }
+    svg{
+        margin: 1em auto 0;
+        height: 4em;
+        
+    }
+    .div2 > svg{
+        height: 4em;
+    }
+    .div3 > svg{
+        height: 4em;
+    }
+    .div4 > svg{
+        height: 4em;
+    }
+    .div5 > svg{
+        height: 4em;
+    }
+    .div6 > svg{
+        height: 4em;
+    }
+   
+
+  .parent >.div1{
+      text-align: center;
+      padding: 0 5em;
+  }
+
+  .parent2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .items{
+        height: 250px;
+        width: 250px;
+        background-color: #a3c4f3;
+    }
+
+ /* @media only screen and (max-width:992px) {
+     
+    .box-1 {
+        max-width: 35%;
+        margin-left: 2em;
+    }
+    .box-2{
+        max-width: 35%;
+    }
+    .box-3 {
+        padding: 0;
+        justify-content: flex-end;
+        margin: 0;
+        max-width: 25%;
+    }
+ } */

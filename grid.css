@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    /* background-color: blue; */
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    /* grid-template-columns: 120px 120px 120px; */
+    row-gap: 1rem;
+    
+    justify-content: center;
+   
+
+}
+.item{
+    height: 5rem;
+    width: 5rem;
+    background-color: aquamarine;
+    border: 2px solid red;
+}
