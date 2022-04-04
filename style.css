@@ -141,10 +141,8 @@ body{
 
 
  .parent{
-     padding: 0 7em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); */
     grid-column-gap: 5rem;
     grid-row-gap: 0;
     width: 100%;
@@ -202,19 +200,23 @@ body{
       padding: 0 5em;
   }
 
-  .parent2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
+  .boxes{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      position: relative;
+      grid-row-gap: 5px;
+      grid-column-gap: 5px;
 
-    .items{
-        height: 250px;
-        width: 250px;
-        background-color: #a3c4f3;
-    }
+  }
+
+  .box{
+      height: 15em;
+  }
+  .box  img{
+      width: 100%;
+      height: 100%;
+
+  }
 
  /* @media only screen and (max-width:992px) {
      
