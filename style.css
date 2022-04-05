@@ -285,6 +285,70 @@ body{
   .second p{
       font-weight: 500;
   }
+  .sec{
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+
+  .sec > .card{
+      border: none;
+  }
+
+  .sociall{
+      display: flex;
+      text-align: center;
+      padding:0 5em;
+  }
+
+  .foot{
+      display: flex;
+      flex-wrap: wrap;
+      /* margin: 0 10em; */
+  }
+  .boxx1{
+      background-color: #ddc384;
+      
+  }
+  .boxx2{
+      font-weight: 700;
+  }
+  .boxx2 h6{
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #ddc384;
+  }
+  .boxx2 p{
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #111111;
+      
+  }
+  .boxx3 h1{
+    font-weight: 700;
+    /* font-size: 1.25rem; */
+    color: #ddc384;
+  }
+
+  #foo{
+    background-color: #fcf9f1;
+    border: none;
+    box-shadow: 2px 3px 5px 2px #888888;
+  }
+  #but{
+      background-color: #ddc384;
+      border: none;
+      color: #111111;
+      font-size: large;
+      width: 100%;
+      font-weight: bold;
+  }
+  #but:hover{
+      background-color: #f1ebda;
+  }
+
 
  /* @media only screen and (max-width:992px) {
      
