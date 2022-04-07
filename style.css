@@ -509,6 +509,49 @@ body{
       background-color: #f1ebda;
   }
 
+  #contact{
+      padding-top: 7%;
+  }
+
+  .about{
+      text-align: center;
+  }
+  .about h1{
+    font-weight: 700;
+    font-size: 1.875rem; 
+    position: relative;
+    display: inline-block;
+  }
+  .about h1:hover{
+    color: red;
+  }
+  .about h1::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .about h1:hover::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-image: linear-gradient(to right, #a3c4f3 , #b9fbc0, #f72585);
+    bottom: 0;
+    left: 0;
+    width: 0;
+    transition: all 1.2s cubic-bezier(.17,.67,.83,.67);
+  }
+  .about h1:hover::after{
+   width: 100%;
+  }
+
+  .final{
+      margin-top: -6em;
+  }
+
  /* @media only screen and (max-width:992px) {
      
     .box-1 {

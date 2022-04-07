@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="Fontawesome/css/all.css" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <div id="loader">
@@ -39,7 +40,7 @@
                   >
                 </li>
                 <li class="nav-item hove">
-                  <a class="nav-link me-3" href="#">About</a>
+                  <a class="nav-link me-3" href="#about">About</a>
                 </li>
                 <li class="nav-item hove">
                   <a class="nav-link me-3" href="#contact">Contact</a>
@@ -58,7 +59,7 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 box-1">
+          <div class="col-lg-3 col-md-4 col-sm-6 box-1" >
             <h4
               class="u-custom-font u-font-raleway u-text u-text-body-alt-color u-text-1"
             >
@@ -103,7 +104,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container final">
       <div class="row text">
         <div class="col-lg-12">
           <div class="container" id="text-1">
@@ -154,7 +155,7 @@
               properly carriage shutters ye as wandered up repeated moreover.
             </h6>
           </div>
-          <div class="col-lg-6 mt-5 pt-5">
+          <div  class="col-lg-6 mt-5 pt-5 " data-aos="fade-right"  data-aos-delay="300" data-aos-duration="2000">
             <img src="images/build (1).jpg" alt="" srcset="" />
           </div>
         </div>
@@ -164,7 +165,7 @@
     <div class="section3 mt-5 pt-5">
       <div class="container">
         <div class="row third">
-          <div class="col-lg-6">
+          <div class="col-lg-6 " data-aos="fade-left"  data-aos-delay="300" data-aos-duration="2000">
             <img src="images/build.jpg" alt="" srcset="" />
           </div>
           <div class="col-lg-6 left">
@@ -188,12 +189,13 @@
       </div>
     </div>
 
+    <br  id="about">
     <br />
     <br />
     <br />
-    <br />
-
-    <div class="container-fluid col-lg-9 col-sm-12">
+    
+    <div class="container-fluid col-lg-10 col-sm-12 about" >
+      <h1 class="text-center pb-3 " >ABOUT US</h1>
       <div class="parent">
         <div class="div div1 ">
           <svg
@@ -215,7 +217,7 @@
             click to start editing the text.
           </p>
         </div>
-        <div class="div div2">
+        <div class="div div2" data-aos="flip-up"  data-aos-delay="300" data-aos-duration="1000">
           <svg class="fa-solid fa-earth-asia"></svg>
           <h5>Marketing</h5>
           <p>
@@ -231,7 +233,7 @@
             click to start editing the text.
           </p>
         </div>
-        <div class="div div4">
+        <div class="div div4" data-aos="flip-up"  data-aos-delay="300" data-aos-duration="1000">
           <svg class="fa-solid fa-magnet"></svg>
           <h5>Consulting</h5>
           <p>
@@ -247,7 +249,7 @@
             click to start editing the text.
           </p>
         </div>
-        <div class="div div6">
+        <div class="div div6" data-aos="flip-up"  data-aos-delay="300" data-aos-duration="1000">
           <i class="fa-solid fa-heart"></i>
           <h5>Support 24/7</h5>
           <p>
@@ -262,7 +264,7 @@
     <br />
     <br />
 
-    <div class="container col-lg-9 col-sm-7">
+    <div class="container col-lg-10 col-sm-7">
       <div class="boxes">
         <div class="box box11">
           <img src="images/one.jpeg" alt="" srcset="" />
@@ -387,8 +389,8 @@
       </div>
     </div>
 
-    <div class="container mt-5 foot" id="contact">
-      <div class="boxx1 col-lg-4 col-sm-6 ms-5">
+    <div class="container mt-5 foot" id="contact" >
+      <div class="boxx1 col-lg-4 col-sm-6 ms-5" data-aos="fade-down-right"  data-aos-delay="800" data-aos-duration="1000">
         <div class="head ms-2 mt-4">
           <h3>Get in touch</h3>
           <p class="mt-4 pp">
@@ -501,8 +503,13 @@
       </div>
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="Fontawesome/js/all.js"></script>
     <script src="javascript.js"></script>
   </body>
+
 </html>
